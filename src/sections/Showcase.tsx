@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'motion/react';
 import { Github, ExternalLink } from 'lucide-react';
+import eventManagementImage from '../assets/images/event-management.png';
 
 interface Project {
   id: number;
@@ -20,7 +21,7 @@ const projects: Project[] = [
     name: "Event Management System",
     description: "Event platform for creation, registration, and user management. Includes role-based access for admins, organizers, and attendees, QR-code check-in and badge generation, customizable badge templates, email automation and campaigns, and an analytics dashboard for registrations, attendee statistics, and check-in activity.",
     stack: ["React.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL"],
-    image: null,
+    image: eventManagementImage,
     github: null,
     live: null,
   },
