@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'motion/react';
 import { Github, ExternalLink } from 'lucide-react';
 import eventManagementImage from '../assets/images/event-management.png';
+import linkedInAutomationImage from '../assets/images/linkedin-automation.png';
 
 interface Project {
   id: number;
@@ -30,7 +31,7 @@ const projects: Project[] = [
     name: "LinkedIn Automation Tool",
     description: "Tool that identifies daily birthdays, work anniversaries, and job changes so users can keep up professional relationships. Automates browser interactions with Puppeteer, runs connection campaigns from uploaded CSV profile lists, tracks pending and accepted requests, and keeps sessions with cookie-based login.",
     stack: ["Node.js", "Puppeteer", "JavaScript", "React.js"],
-    image: null,
+    image: linkedInAutomationImage,
     github: null,
     live: null,
   },
